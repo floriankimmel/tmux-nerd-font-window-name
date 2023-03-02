@@ -28,6 +28,9 @@ go)
 lf | lfcd)
 	echo ""
 	;;
+Python)
+	echo ""
+	;;
 *)
 	echo "$NAME"
 	;;
