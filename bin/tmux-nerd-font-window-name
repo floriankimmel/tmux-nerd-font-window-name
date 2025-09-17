@@ -5,33 +5,42 @@ NAME=$1
 
 case $NAME in
 tmux)
-	echo ""
-	;;
-fish | zsh | bash)
-	echo ""
-	;;
+    echo ""
+    ;;
+claude)
+    echo ""
+    ;;
+fish | zsh | bash | nu | starship | atuin | node)
+    echo ""
+    ;;
+lazydocker)
+    echo ""
+    ;;
+.spotify_player)
+    echo ""
+    ;;
 vi | vim | nvim | lvim)
-	echo ""
-	;;
+    echo ""
+    ;;
 lazygit | git)
-	echo ""
-	;;
-node)
-	echo ""
-	;;
+    echo ""
+    ;;
+claude)
+    echo "󰅬"
+    ;;
 ruby)
-	echo ""
-	;;
+    echo ""
+    ;;
 go)
-	echo "ﳑ"
-	;;
-lf | lfcd)
-	echo ""
-	;;
+    echo "ﳑ"
+    ;;
+lf | lfcd | yazi)
+    echo ""
+    ;;
 Python)
-	echo ""
-	;;
+    echo ""
+    ;;
 *)
-	echo "$NAME"
-	;;
+    echo ""
+    ;;
 esac
