@@ -10,6 +10,9 @@ tmux)
 claude)
     echo ""
     ;;
+gh)
+    echo ""
+    ;;
 fish | zsh | bash | nu | starship | atuin | node)
     echo ""
     ;;
@@ -22,10 +25,10 @@ lazydocker)
 vi | vim | nvim | lvim)
     echo ""
     ;;
-lazygit | git)
+lazygit | git | lg)
     echo ""
     ;;
-claude)
+claude | opencode | bun | .opencode-wrapp)
     echo "󰅬"
     ;;
 ruby)
