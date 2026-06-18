@@ -13,7 +13,7 @@ claude)
 gh)
     echo ""
     ;;
-fish | zsh | bash | nu | starship | atuin | node)
+fish | zsh | bash | nu | starship | atuin)
     echo ""
     ;;
 lazydocker)
@@ -28,7 +28,7 @@ vi | vim | nvim | lvim)
 lazygit | git | lg)
     echo ""
     ;;
-claude | opencode | bun | .opencode-wrapp)
+claude | opencode | node | bun | .opencode-wrapp)
     echo "󰅬"
     ;;
 ruby)
