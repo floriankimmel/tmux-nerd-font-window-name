@@ -37,6 +37,9 @@ ruby)
 go)
     echo "ﳑ"
     ;;
+lectern)
+    echo "󰷈"
+    ;;
 lf | lfcd | yazi)
     echo ""
     ;;
