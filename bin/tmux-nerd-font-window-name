@@ -7,7 +7,7 @@ case $NAME in
 tmux)
     echo ""
     ;;
-claude)
+claude | claude.exe | [0-9]*.[0-9]*.[0-9]*)
     echo ""
     ;;
 gh)
@@ -28,7 +28,7 @@ vi | vim | nvim | lvim)
 lazygit | git | lg)
     echo ""
     ;;
-claude | opencode | node | bun | .opencode-wrapp)
+opencode | node | bun | .opencode-wrapp)
     echo "󰅬"
     ;;
 ruby)
